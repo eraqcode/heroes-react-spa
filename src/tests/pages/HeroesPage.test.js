@@ -12,7 +12,7 @@ describe('Test in the Heroes Page', () => {
 
    
 
-    test('should show the Redirect component ifthere are not arguments in URL ', () => {
+    test('should show the Redirect component ifthere are not arguments in URL', () => {
         
         const wrapper = mount(
             <MemoryRouter initialEntries={['/heroe']}>

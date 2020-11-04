@@ -9,7 +9,7 @@ export const HeroCard = ( {
         
 } ) => {
 
-const ruta = '../../assets/img/'
+
     return (
         <div className="card">
             <div className="column-img column">

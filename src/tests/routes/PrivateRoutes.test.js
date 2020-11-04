@@ -1,4 +1,4 @@
-const { shallow, mount } = require("enzyme");
+const { mount } = require("enzyme");
 const { MemoryRouter } = require("react-router-dom");
 const { PrivateRoutes } = require("../../routers/PrivateRoutes");
 

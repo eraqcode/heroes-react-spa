@@ -7,7 +7,7 @@ import { AppRouter } from "./routers/AppRouter";
 function App() {
 
   const init = () => {
-    return JSON.parse( localStorage.getItem( 'user' ) )
+    return JSON.parse( localStorage.getItem( 'user' ) ) || ''
   }
 
   const [user, dispatch] = useReducer(AuthReducer, {}, init)

@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in AppRouter component should show Login component if username is not authenticated  1`] = `
+Array [
+  <nav>
+    <div
+      className="navbar__header"
+    >
+      <header>
+        <a
+          className="icon__link"
+          href="/"
+          onClick={[Function]}
+        >
+           
+          <h1>
+             HeroesApp 
+          </h1>
+           
+        </a>
+      </header>
+    </div>
+    <div
+      className="nav-menu-active "
+    >
+      <ul
+        className="navbar"
+      >
+        <li
+          className="nav__item"
+        >
+          <a
+            aria-current="page"
+            className="nav__link active"
+            href="/"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="nav__item"
+        >
+          <a
+            aria-current={null}
+            className="nav__link"
+            href="/about"
+            onClick={[Function]}
+          >
+            About
+          </a>
+        </li>
+        <li
+          className="nav__item"
+        >
+          <a
+            aria-current={null}
+            className="nav__link"
+            href="/marvel"
+            onClick={[Function]}
+          >
+            Marvel
+          </a>
+        </li>
+        <li
+          className="nav__item"
+        >
+          <a
+            aria-current={null}
+            className="nav__link"
+            href="/dc"
+            onClick={[Function]}
+          >
+            DC
+          </a>
+        </li>
+        <li
+          className="nav__item"
+        >
+          <a
+            aria-current={null}
+            className="nav__link"
+            href="/search"
+            onClick={[Function]}
+          >
+            Search
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="btn__toggle"
+    >
+      <button
+        onClick={[Function]}
+      >
+        <svg
+          className="react-icons"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 352 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            key="0"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="user"
+    >
+      <span>
+        Juanito
+      </span>
+      <button
+        className="logout__btn"
+        onClick={[Function]}
+      >
+        Log out
+      </button>
+    </div>
+  </nav>,
+  <main
+    className="main"
+  >
+    <section
+      className="banner"
+    >
+      <div
+        className="banner__content"
+      >
+        <ul
+          className="banner__list"
+        >
+          <li
+            className="banner__item"
+            key="0"
+          >
+            <img
+              alt="banner img"
+              className="banner__img"
+              src="banner-img-1.jpeg"
+            />
+          </li>
+          <li
+            className="banner__item"
+            key="1"
+          >
+            <img
+              alt="banner img"
+              className="banner__img"
+              src="banner-img-2.jpg"
+            />
+          </li>
+          <li
+            className="banner__item"
+            key="2"
+          >
+            <img
+              alt="banner img"
+              className="banner__img"
+              src="banner-img-3.jpeg"
+            />
+          </li>
+          <li
+            className="banner__item"
+            key="3"
+          >
+            <img
+              alt="banner img"
+              className="banner__img"
+              src="banner-img-4.jpg"
+            />
+          </li>
+          <li
+            className="banner__item"
+            key="4"
+          >
+            <img
+              alt="banner img"
+              className="banner__img"
+              src="banner-img-5.jpg"
+            />
+          </li>
+          <li
+            className="banner__item"
+            key="5"
+          >
+            <img
+              alt="banner img"
+              className="banner__img"
+              src="banner-img-6.jpg"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section
+      className="story"
+    >
+      <div
+        className="story__content"
+      >
+        <div
+          className="story__marvel"
+        >
+          <article
+            className="story___article-marvel"
+          >
+            <header
+              className="story__header"
+            >
+              <h3>
+                 Marvel 
+              </h3>
+            </header>
+            <p
+              className="story__paragraph"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti facilis incidunt fugit, odit veniam possimus minima velit quo cum autem! Laboriosam autem esse at ex quod nostrum dolorem modi quisquam!. Ipsum dolor sit amet consectetur adipisicing elit. Veniam aut dolore iusto minus fuga. Beatae eveniet corporis consequatur eum ratione, culpa alias quidem sunt eos, id esse rem minima laborum.
+            </p>
+            <figure>
+              <img
+                alt="Marvel Logo"
+                className="story__img"
+                src="marvel-logo.png"
+              />
+            </figure>
+          </article>
+        </div>
+        <div
+          className="story__dc"
+        >
+          <article
+            className="story__article-dc"
+          >
+            <header
+              className="story__header"
+            >
+              <h3>
+                 DC 
+              </h3>
+            </header>
+            <p
+              className="story__paragraph"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti facilis incidunt fugit, odit veniam possimus minima velit quo cum autem! Laboriosam autem esse at ex quod nostrum dolorem modi quisquam!. Ipsum dolor sit amet consectetur adipisicing elit. Veniam aut dolore iusto minus fuga. Beatae eveniet corporis consequatur eum ratione, culpa alias quidem sunt eos, id esse rem minima laborum.
+            </p>
+            <figure>
+              <img
+                alt="DC logo"
+                className="story__img"
+                src="dc-logo.png"
+              />
+            </figure>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>,
+  <footer
+    className="footer"
+  >
+    <div
+      className="footer__content"
+    >
+      <p>
+         Designed and developed by Erik Carcelén 
+      </p>
+      <p>
+         All rights reserved © 
+        2020
+         
+      </p>
+    </div>
+  </footer>,
+]
+`;

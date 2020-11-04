@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in Login Page should show itself correctly 1`] = `
+<div
+  className="container"
+>
+  <main>
+    <header>
+      <h1>
+         Log in 
+      </h1>
+    </header>
+    <hr />
+    <button
+      className="btn-logout"
+      onClick={[Function]}
+    >
+      Log In
+    </button>
+  </main>
+</div>
+`;

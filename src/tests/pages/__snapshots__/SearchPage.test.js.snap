@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in Search Page should show a error if the heroe is not finded 1`] = `
+<main
+  className="container"
+>
+  <header
+    className="HeaderPage"
+  >
+    <h1
+      className="header-page__content"
+    >
+       
+      Search
+       
+    </h1>
+  </header>
+  <section
+    className="search"
+  >
+    <div
+      className="search__form"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Search a hero"
+          type="text"
+          vakue=""
+        />
+        <button
+          className="btn__search"
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="search__results"
+    >
+      <h4>
+         Results 
+      </h4>
+      <hr />
+      <div
+        className="alert__error alert"
+      >
+        The heroe 
+        <strong>
+           
+          batman123
+           
+        </strong>
+         do not exist
+      </div>
+    </div>
+  </section>
+</main>
+`;
+
+exports[`Test in Search Page should show itself correctly 1`] = `
+<main
+  className="container"
+>
+  <header
+    className="HeaderPage"
+  >
+    <h1
+      className="header-page__content"
+    >
+       
+      Search
+       
+    </h1>
+  </header>
+  <section
+    className="search"
+  >
+    <div
+      className="search__form"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Search a hero"
+          type="text"
+          vakue=""
+        />
+        <button
+          className="btn__search"
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="search__results"
+    >
+      <h4>
+         Results 
+      </h4>
+      <hr />
+      <div
+        className="alert__info alert"
+      >
+        You most search a heroe
+      </div>
+    </div>
+  </section>
+</main>
+`;

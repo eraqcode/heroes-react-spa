@@ -21,13 +21,13 @@ export const AppRouter = () => {
                     exact 
                     path="/login"
                     component={ LoginPage } 
-                    isAuthenticated={user.logged}
+                    isAuthenticated={!user.logged ? user.logged = false: user.logged}
                 />
                 
                 <PrivateRoutes 
                     path="/" 
                     component={ DashBoardRouter } 
-                    isAuthenticated={user.logged}
+                    isAuthenticated={!user.logged ? user.logged = false: user.logged}
                 />
 
             </Switch>
